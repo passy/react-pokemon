@@ -1,6 +1,6 @@
 # react-pokemon
 
-A [React] component built for displaying Pokemon.
+A [React](facebook.github.io/react/) component for displaying Pokemon.
 Based on an [AngularJS Directive](http://plnkr.co/edit/xfRpUhIjGTC7g4Pi75kj?p=preview)
 by [Brian Ford](https://github.com/btford).
 
@@ -10,9 +10,12 @@ by [Brian Ford](https://github.com/btford).
 
 `bower install react-pokemon`
 
-```html
-<link rel="import" href="bower_components/x-pokemon/x-pokemon.html">
-<x-pokemon name="pikachu"></x-pokemon>
+```javascript
+React.createClass({
+    render: function () {
+        return <Pokemon name="pikachu" />;
+    }
+});
 ```
 
 ## License
