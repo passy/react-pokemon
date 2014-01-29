@@ -1,0 +1,41 @@
+<!doctype html>
+<title>react-pokemon</title>
+
+<script src="http://fb.me/react-0.8.0.min.js"></script>
+<script src="http://fb.me/JSXTransformer-0.8.0.js"></script>
+<script src="pokemon.js"></script>
+
+<main></main>
+
+<script type="text/jsx">
+    /**
+      * @jsx React.DOM
+      */
+
+    var App = React.createClass({
+        getInitialState: function () {
+            return {
+                name: 'pikachu'
+            };
+        },
+
+        updateName: function () {
+            this.setState({
+                name: this.refs.name.getDOMNode().value
+            });
+        },
+
+        render: function () {
+            return <div>
+                <input ref="name" onChange={this.updateName} value={this.state.name} />
+                <br />
+                <Pokemon name={this.state.name} />
+            </div>;
+        }
+    });
+
+    React.renderComponent(
+        <App />,
+        document.querySelector('main')
+    );
+</script>

@@ -1,0 +1,25 @@
+{
+  "name": "react-pokemon",
+  "version": "0.1.0",
+  "authors": [
+    "Pascal Hartig <passy@twitter.com>"
+  ],
+  "description": "A react component to display Pokemon",
+  "main": "pokemon.js",
+  "keywords": [
+    "pokemon",
+    "react"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/passy/react-pokemon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.8.0"
+  }
+}
