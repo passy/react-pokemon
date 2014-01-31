@@ -6,16 +6,39 @@ by [Brian Ford](https://github.com/btford).
 
 ## [Demo](http://passy.github.io/react-pokemon/)
 
+## Installation
+
+Download the library [manually](https://github.com/passy/react-pokemon/releases) or with a
+package-manager.
+
+#### [npm](https://npmjs.org/package/react-pokemon)
+
+```
+npm install --save react-pokemon
+```
+
+#### [Bower](http://bower.io)
+
+```
+bower install --save react-pokemon
+```
+
+#### [Component](https://github.com/component/component)
+
+```
+component install passy/react-pokemon
+```
+
 ## Usage
 
 `bower install react-pokemon`
 
 ```javascript
-React.createClass({
-    render: function () {
-        return <Pokemon name="pikachu" />;
-    }
-});
+/** @jsx React.DOM */
+React.renderComponent(
+    <Pokemon name="pikachu" />,
+    document.getElementById('example')
+);
 ```
 
 ## License
