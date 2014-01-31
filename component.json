@@ -1,0 +1,17 @@
+{
+  "name": "react-pokemon",
+  "repo": "passy/react-pokemon",
+  "description": "A react component to display Pokemon",
+  "version": "0.1.0",
+  "keywords": [
+    "pokemon",
+    "react"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "pokemon.js",
+  "scripts": [
+    "pokemon.js"
+  ]
+}
