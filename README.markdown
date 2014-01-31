@@ -26,7 +26,7 @@ bower install --save react-pokemon
 #### [Component](https://github.com/component/component)
 
 ```
-component install passy/react-pokemon
+component install passy/react-pokemon@gh-pages
 ```
 
 ## Usage
