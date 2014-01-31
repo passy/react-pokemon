@@ -1,0 +1,27 @@
+{
+  "name": "react-pokemon",
+  "version": "0.1.0",
+  "description": "A react component to display Pokemon",
+  "main": "pokemon.js",
+  "dependencies": {
+    "react-tools": "~0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/passy/react-pokemon.git"
+  },
+  "keywords": [
+    "pokemon",
+    "react"
+  ],
+  "author": "Pascal Hartig <passy@twitter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/passy/react-pokemon/issues"
+  },
+  "homepage": "https://github.com/passy/react-pokemon"
+}
