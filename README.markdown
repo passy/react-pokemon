@@ -31,8 +31,6 @@ component install passy/react-pokemon@gh-pages
 
 ## Usage
 
-`bower install react-pokemon`
-
 ```javascript
 /** @jsx React.DOM */
 React.renderComponent(
