@@ -9,7 +9,7 @@
   ],
   "dependencies": {},
   "development": {},
-  "license": "MIT",
+  "license": "BSD",
   "main": "pokemon.js",
   "scripts": [
     "pokemon.js"
