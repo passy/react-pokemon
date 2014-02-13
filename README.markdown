@@ -48,3 +48,4 @@ BSD
 - [AngularJS](https://github.com/gdi2290/angular-pokemon)
 - [Ember](http://emberjs.jsbin.com/AYegOHI/1/edit)
 - [Polymer](https://github.com/passy/x-pokemon)
+- [Vanilla](https://github.com/calvinmetcalf/vanilla-pokemon)
