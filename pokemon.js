@@ -21,7 +21,7 @@
       return React.DOM.img({
         className: 'pokemon',
         alt: this.props.name,
-        src: 'http://img.pokemondb.net/artwork/' + this.props.name.toLowerCase() + '.jpg'
+        src: 'http://img.pokemondb.net/artwork/' + this.props.name.trim().toLowerCase() + '.jpg'
       });
     }
   });
