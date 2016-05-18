@@ -19,7 +19,7 @@
     "react"
   ],
   "author": "Pascal Hartig <passy@twitter.com>",
-  "license": "BSD",
+  "license": "BSD-3",
   "bugs": {
     "url": "https://github.com/passy/react-pokemon/issues"
   },
