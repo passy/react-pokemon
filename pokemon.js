@@ -6,7 +6,7 @@
     });
   } else if (typeof exports === 'object') {
     // Node, sorta CommonJS
-    module.exports = factory(require('react-tools').React);
+    module.exports = factory(require('react'));
   } else {
     // Browser global
     root.Pokemon = factory(root.React);
