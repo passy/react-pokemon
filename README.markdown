@@ -1,5 +1,7 @@
 # react-pokemon
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/passy/react-pokemon.svg)](https://greenkeeper.io/)
+
 A [React](facebook.github.io/react/) component for displaying Pokemon.
 Based on an [AngularJS Directive](http://plnkr.co/edit/xfRpUhIjGTC7g4Pi75kj?p=preview)
 by [Brian Ford](https://github.com/btford).
